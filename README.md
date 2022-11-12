@@ -13,4 +13,4 @@ https://rohankumar122.github.io/portpholio/
 
 # Link for direct search
 
-qrco.de/rohan
+about.me/rohankumarin
