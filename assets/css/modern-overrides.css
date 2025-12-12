@@ -1,0 +1,179 @@
+:root {
+  --bg-color: #0c0c0c;
+  --bg-secondary: #161618;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --accent-color: #00f2ea;
+  --accent-gradient: linear-gradient(135deg, #00f2ea 0%, #0078f2 100%);
+  --glass-bg: rgba(22, 22, 24, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: 'Outfit', 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+a {
+  color: var(--accent-color);
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sidebar/Header overrides */
+#header {
+  background: rgba(0,0,0,0.95);
+  border-right: 1px solid var(--glass-border);
+}
+
+.profile h1, .profile h1 a {
+    color: #fff !important;
+}
+
+.nav-menu a {
+  color: var(--text-secondary);
+}
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: var(--accent-color);
+}
+.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+  color: var(--accent-color);
+}
+
+/* Mobile nav */
+.mobile-nav-toggle i {
+    color: var(--text-primary);
+}
+
+/* Hero Section */
+#hero {
+  /* Keep existing bg image but darken overlay */
+  /* background is handled by style.css but we can darken the overlay via :before */
+}
+#hero:before {
+    background: rgba(0, 0, 0, 0.7);
+}
+#hero h1 {
+  text-shadow: 0 0 20px rgba(0, 242, 234, 0.3);
+}
+#hero p {
+    color: #ddd;
+}
+#hero p span {
+  border-bottom: 3px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+/* Section overrides */
+.section-bg {
+  background-color: var(--bg-secondary);
+}
+
+.section-title h2 {
+  color: #fff;
+}
+.section-title h2::after {
+  background: var(--accent-gradient);
+}
+.section-title p {
+  color: var(--text-secondary);
+}
+
+/* About & Resume */
+.about .content h3 {
+  color: var(--accent-color);
+}
+.about .content ul i {
+  color: var(--accent-color);
+}
+
+.resume .resume-title {
+  color: #fff;
+}
+.resume .resume-item {
+  border-left: 2px solid var(--accent-color);
+}
+.resume .resume-item::before {
+  border: 2px solid var(--accent-color);
+  background: var(--bg-color);
+}
+.resume .resume-item h4 {
+  color: var(--accent-color);
+}
+.resume .resume-item h5 {
+  background: rgba(0, 242, 234, 0.1);
+  color: var(--accent-color);
+  border: 1px solid rgba(0, 242, 234, 0.2);
+}
+
+/* Skills */
+.skills .progress-bar-wrap {
+  background: #333;
+}
+.skills .progress-bar {
+  background: var(--accent-gradient);
+}
+.skills .progress .skill {
+    color: #fff;
+}
+
+/* Portfolio/Certificates */
+.portfolio .portfolio-wrap {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+.portfolio #portfolio-flters {
+    background: var(--bg-secondary);
+}
+.portfolio #portfolio-flters li {
+  color: var(--text-secondary);
+  border-radius: 50px;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: var(--accent-gradient);
+}
+
+/* Contact */
+.contact .info {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  box-shadow: none;
+  border: 1px solid var(--glass-border);
+}
+.contact .info h4 {
+  color: #fff;
+}
+.contact .info p {
+  color: var(--text-secondary);
+}
+.contact .info i {
+  background: rgba(0, 242, 234, 0.1);
+  color: var(--accent-color);
+}
+.contact .php-email-form {
+  background: var(--bg-secondary);
+  border: 1px solid var(--glass-border);
+  box-shadow: none;
+}
+.contact .php-email-form button[type="submit"] {
+  background: var(--accent-gradient);
+  border: none;
+}
+.contact .php-email-form input, .contact .php-email-form textarea {
+    background: #000;
+    border: 1px solid #333;
+    color: #fff;
+}
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    border-color: var(--accent-color);
+}
