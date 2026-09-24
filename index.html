@@ -3,599 +3,780 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Rohan Kumar | Software Engineer</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Rohan Kumar · AI Data Engineer</title>
+  <meta name="description"
+    content="Rohan Kumar is an AI Data Engineer in Gurgaon, India with 3.8 years of experience building RAG pipelines, LLM-powered applications, NLP systems and cloud ETL pipelines with Python, FastAPI, AWS and Azure.">
+  <meta name="author" content="Rohan Kumar">
+  <link rel="canonical" href="https://rohankumar122.github.io/portpholio/">
+  <meta name="theme-color" content="#F6F8FB" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0A0F17" media="(prefers-color-scheme: dark)">
+
+  <!-- Link previews (LinkedIn, WhatsApp, X, Slack) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Rohan Kumar">
+  <meta property="og:title" content="Rohan Kumar · AI Data Engineer">
+  <meta property="og:description"
+    content="RAG pipelines, LLM-powered apps and data engineering with Python, FastAPI, AWS and Azure.">
+  <meta property="og:url" content="https://rohankumar122.github.io/portpholio/">
+  <meta property="og:image" content="https://rohankumar122.github.io/portpholio/assets/img/og-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon-180.png">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- Apply the saved theme before first paint so there is no flash -->
+  <script>
+    try {
+      var savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      }
+    } catch (e) { }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
     rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <!-- Styles -->
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/portfolio.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/modern-overrides.css" rel="stylesheet">
-
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rohan Kumar",
+    "jobTitle": "AI Data Engineer",
+    "url": "https://rohankumar122.github.io/portpholio/",
+    "image": "https://rohankumar122.github.io/portpholio/assets/img/rohan-kumar.jpeg",
+    "email": "mailto:rk399504@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Gurgaon", "addressCountry": "IN" },
+    "worksFor": { "@type": "Organization", "name": "Adglobal360" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Ropar" },
+      { "@type": "CollegeOrUniversity", "name": "Dr. A.P.J. Abdul Kalam Technical University" }
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/rohan-kumar-9b2a76186/",
+      "https://github.com/RohanKumar122"
+    ]
+  }
+  </script>
 </head>
 
-<body>
+<!-- data-career-start drives the "years of experience" figures, so they stay current -->
+<body data-career-start="2022-12-01">
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Rohan Kumar, back to top">
+        <span class="brand-mark" aria-hidden="true">RK</span>
+        <span class="brand-name">Rohan Kumar</span>
+      </a>
 
-      <div class="profile">
-        <img src="assets/img/profile-img1.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Rohan Kumar</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/RohanKu62190048" target="_blank" class="twitter"><i
-              class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/rohan_r.kumar/" target="_blank" class="instagram"><i
-              class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/RohanKumar122" class="github" target="_blank"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/rohan-kumar-9b2a76186/" class="linkedin" target="_blank"><i
-              class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-
-      <nav class="nav-menu">
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
         <ul>
-          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Certificates</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+      </nav>
 
+      <div class="header-actions">
+        <button class="icon-btn theme-toggle" type="button" aria-label="Switch theme">
+          <i class="bx bx-moon" aria-hidden="true"></i>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+          aria-label="Open menu">
+          <i class="bx bx-menu" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Rohan Kumar</h1>
-      <p>Hey, I'm <span class="typed" data-typed-items="Data Science Engineer, Backend Developer, AI Researcher"></span>
-      </p>
-    </div>
-  </section><!-- End Hero -->
+  </header>
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
+    <!-- ======= Hero ======= -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Data Engineer · Gurgaon, India</p>
+          <h1 class="hero-title">Rohan Kumar</h1>
+          <p class="hero-lede">I turn messy, large-scale data into <em>production-grade AI</em>: ETL pipelines, RAG
+            systems and LLM-powered apps.</p>
+          <p class="hero-sub"><span data-years>3.8</span> years across backend engineering, data engineering, machine
+            learning and Generative AI. Currently Engineer, Data Science (AI &amp; GenAI) at Adglobal360.</p>
 
-        <div class="section-title">
-          <h2>About</h2>
-          <p>I’m a Data Science Engineer with strong experience in building intelligent systems, scalable backend
-            architectures, and full-stack applications. With a background in software engineering and hands-on work
-            across Python, Node.js, FastAPI, React, MongoDB, SQL, and cloud platforms, I enjoy solving real-world
-            problems using clean code, data-driven insights, and automation.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact"><i class="bx bx-envelope" aria-hidden="true"></i> Get in
+              touch</a>
+            <a class="btn btn-ghost" href="#experience">View experience <i class="bx bx-right-arrow-alt"
+                aria-hidden="true"></i></a>
+          </div>
+
+          <ul class="hero-social" aria-label="Profiles">
+            <li><a href="https://github.com/RohanKumar122" target="_blank" rel="noopener" aria-label="GitHub"><i
+                  class="bx bxl-github" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/rohan-kumar-9b2a76186/" target="_blank" rel="noopener"
+                aria-label="LinkedIn"><i class="bx bxl-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:rk399504@gmail.com" aria-label="Email"><i class="bx bx-envelope"
+                  aria-hidden="true"></i></a></li>
+          </ul>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+        <div class="hero-visual">
+          <div class="portrait">
+            <picture>
+              <source srcset="assets/img/rohan-kumar.webp" type="image/webp">
+              <img src="assets/img/rohan-kumar.jpeg" width="1080" height="1453" alt="Portrait of Rohan Kumar"
+                fetchpriority="high">
+            </picture>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Data Science Engineer &amp; Full Stack Developer</h3>
-            <p class="font-general">
-              I can fix your bug!! If you're looking for someone who can combine data science + backend engineering +
-              product mindset, let’s connect.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 11 Dec 2000</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Personal E-mail:</strong> <a href="">
-                      rk399504@gmail.com</a></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +918765626301</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Gurugram, India</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 25</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.tech</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Branch:</strong> Electronics Engineering</li>
 
-                </ul>
-              </div>
-
-            </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>Here are some skills that makes me different and also help me in many aspects of life.</p>
-        </div>
-
-        <div class="row skills-content">
-          <div class="col-lg-6" data-aos="fade-up">
-            <div class="progress">
-              <span class="skill">Python (Pandas, NumPy, Selenium) <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Machine Learning / NLP <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Backend (Node.js, FastAPI) <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
+          <div class="float-card float-card--role">
+            <span class="float-label">Currently</span>
+            <strong>Engineer, Data Science</strong>
+            <span>Adglobal360 · AI &amp; GenAI</span>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="progress">
-              <span class="skill">Database (MongoDB, SQL) <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">DevOps (Docker, Cloud) <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">React & Ecosystem <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
+
+          <div class="float-card float-card--pipeline">
+            <span class="float-label">RAG pipeline</span>
+            <span class="pipeline">ocr <i>→</i> chunk <i>→</i> embed <i>→</i> llm</span>
           </div>
         </div>
-
       </div>
-    </section><!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Rohan Kumar</h4>
-              <p><em>Data Science Engineer with strong experience in building intelligent systems, scalable backend
-                  architectures, and full-stack applications. Hands-on work across Python, Node.js, FastAPI, React,
-                  MongoDB, SQL, and cloud platforms.</em></p>
-              <ul>
-                <li>Gurugram, Haryana, India</li>
-                <li>(+91) 8765626301</li>
-                <li>rk399504@gmail.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Minor in AI, Artificial Intelligence</h4>
-              <h5>Nov 2024 - Oct 2025</h5>
-              <p><em>Indian Institute of Technology, Ropar</em></p>
-            </div>
-            <div class="resume-item">
-              <h4>B.Tech, Electronics Engineering</h4>
-              <h5>July 2018 - June 2022</h5>
-              <p><em>Dr. A.P.J. Abdul Kalam Technical University (AITH)</em></p>
-            </div>
-            <div class="resume-item">
-              <h4>Intermediate, Science</h4>
-              <h5>May 2015 - April 2017</h5>
-              <p><em>Udai Pratap Public School</em></p>
-            </div>
-
-            <h3 class="resume-title">Publications</h3>
-            <div class="resume-item">
-              <h4>Research Paper</h4>
-              <p><em>Investigation of Pairwise Error Probability of α-mu Fading Channel in Spatially Modulated MIMO
-                  System.</em></p>
-            </div>
+        <dl class="stats">
+          <div class="stat">
+            <dt>Industry experience</dt>
+            <dd><span data-years>3.8</span><small>yrs</small></dd>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Engineer - Data Science</h4>
-              <h5>March 2025 - Present</h5>
-              <p><em>AGL - Hakuhodo, Gurugram, India</em></p>
-              <ul>
-                <li>Automated key sellout platforms across multiple countries, reducing manual effort by 90% and
-                  delivering faster, more accurate operations.</li>
-                <li>Built a full analytics dashboard from scratch to monitor all automation workflows on a single
-                  interface, improving visibility and performance by 80%.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Software Developer</h4>
-              <h5>March 2023 - March 2025</h5>
-              <p><em>EMSEC, Bengaluru, India</em></p>
-              <ul>
-                <li>Developed dynamic web-scraping pipelines for highly complex, schema-driven websites with automated
-                  scheduling.</li>
-                <li>Applied NLP techniques on large datasets (MongoDB) for entity extraction and vectorization; indexed
-                  data into Elasticsearch.</li>
-                <li>Containerized 30+ microservices using Docker and managed Docker Compose environments.</li>
-                <li>Built custom Honeypots tailored for telecom and industrial grids to detect intrusion attempts.</li>
-                <li>Developed an AI chatbot system using Ollama, OpenAI GPT, and Claude for product-specific knowledge
-                  responses.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Software Developer Intern</h4>
-              <h5>Dec 2022 - March 2023</h5>
-              <p><em>EMSEC</em></p>
-              <ul>
-                <li>Developed backend APIs using Flask and Express.js, integrating with database services.</li>
-                <li>Performed MongoDB CRUD operations aligned with dynamic schema requirements.</li>
-                <li>Built reusable React components styled with Tailwind CSS.</li>
-                <li>Created Dockerfiles and deployed services on servers.</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Certifications</h3>
-            <div class="resume-item">
-              <ul>
-                <li>Machine Learning with Python - Level 1</li>
-                <li>The Fundamentals of Digital Marketing</li>
-                <li>Python Programming</li>
-                <li>Research Paper on Performance Analysis of Cooperative Communication</li>
-              </ul>
-            </div>
-
+          <div class="stat">
+            <dt>E-commerce platforms in data pipelines</dt>
+            <dd>7+</dd>
           </div>
-        </div>
-
+          <div class="stat">
+            <dt>Websites in scraping pipelines</dt>
+            <dd>50+</dd>
+          </div>
+          <div class="stat">
+            <dt>Students mentored on GeeksforGeeks</dt>
+            <dd>100+</dd>
+          </div>
+        </dl>
       </div>
-    </section><!-- End Resume Section -->
+    </section>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- ======= About ======= -->
+    <section class="section" id="about">
       <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker"><span>01</span>About</p>
+          <h2 class="section-title">Where data engineering meets <em>AI</em>.</h2>
+        </header>
 
-        <div class="section-title">
-          <h2>Certificates</h2>
-          <p>Here are some certification of my particiapation, learning and achivements.</p>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="lead">I'm an <strong>AI Data Engineer</strong> with <strong><span data-years>3.8</span> years of
+                experience</strong> spanning backend engineering, data engineering, machine learning and Generative
+              AI.</p>
+            <p>I build <strong>LLM-powered applications, RAG pipelines, NLP systems and cloud-based ETL
+                pipelines</strong> using Python, FastAPI, AWS and Azure. I've built AI chatbots on OpenAI and Ollama,
+              and RAG solutions that take documents through OCR, cleaning, chunking, embeddings and vector search.</p>
+            <p>I work hands-on with AWS S3, Azure Data Factory, Databricks, Parquet, Docker and CI/CD, with a strong
+              foundation in scalable data processing and AI application development.</p>
+          </div>
+
+          <dl class="facts reveal">
+            <div>
+              <dt>Based in</dt>
+              <dd>Gurgaon, India</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:rk399504@gmail.com">rk399504@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>Phone</dt>
+              <dd><a href="tel:+918765626301">+91 87656 26301</a></dd>
+            </div>
+            <div>
+              <dt>Education</dt>
+              <dd>B.Tech, Electronics Engineering<br>Minor in AI, IIT Ropar</dd>
+            </div>
+            <div>
+              <dt>Profiles</dt>
+              <dd class="facts-links">
+                <a href="https://www.linkedin.com/in/rohan-kumar-9b2a76186/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/RohanKumar122" target="_blank" rel="noopener">GitHub</a>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Skills ======= -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker"><span>02</span>Skills</p>
+          <h2 class="section-title">The toolkit behind the <em>pipelines</em>.</h2>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-card skill-card--wide reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-bot"></i></span>
+            <h3>Generative AI &amp; LLMs</h3>
+            <p>RAG systems and AI chatbots grounded in enterprise data.</p>
+            <ul class="chips">
+              <li>RAG Pipelines</li>
+              <li>Prompt Engineering</li>
+              <li>OpenAI API</li>
+              <li>Ollama</li>
+              <li>Semantic Search</li>
+              <li>Embeddings</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-data"></i></span>
+            <h3>Data Engineering &amp; ETL</h3>
+            <p>Turning large scraped datasets into analytics-ready data.</p>
+            <ul class="chips">
+              <li>ETL Pipelines</li>
+              <li>Data Cleaning</li>
+              <li>Data Transformation</li>
+              <li>Parquet</li>
+              <li>SQL</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-code-alt"></i></span>
+            <h3>Languages &amp; Backend</h3>
+            <p>APIs for ingestion, processing and AI integration.</p>
+            <ul class="chips">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>Flask</li>
+              <li>SQL (MySQL)</li>
+              <li>NoSQL (MongoDB)</li>
+            </ul>
+          </article>
+
+          <article class="skill-card skill-card--wide reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-cloud"></i></span>
+            <h3>Cloud &amp; DevOps</h3>
+            <p>Containerised services and automated pipelines on AWS and Azure.</p>
+            <ul class="chips">
+              <li>AWS</li>
+              <li>Azure</li>
+              <li>Docker</li>
+              <li>Databricks</li>
+              <li>AWS EC2</li>
+              <li>Amazon S3</li>
+              <li>Azure Data Factory</li>
+              <li>Linux</li>
+              <li>Git</li>
+              <li>CI/CD</li>
+            </ul>
+          </article>
+
+          <article class="skill-card skill-card--wide reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-globe"></i></span>
+            <h3>Web Data &amp; Automation</h3>
+            <p>Scrapers and reverse-engineered APIs across traditional sites and SPAs.</p>
+            <ul class="chips">
+              <li>Web Scraping</li>
+              <li>API Integration</li>
+              <li>Selenium</li>
+              <li>Playwright</li>
+              <li>BeautifulSoup</li>
+              <li>Requests</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-brain"></i></span>
+            <h3>NLP &amp; Machine Learning</h3>
+            <p>Entity extraction and sentiment analysis at dataset scale.</p>
+            <ul class="chips">
+              <li>Hugging Face Transformers</li>
+              <li>Embeddings</li>
+              <li>NLP</li>
+              <li>Sentiment Analysis</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Experience ======= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section-head section-head--row reveal">
+          <div>
+            <p class="section-kicker"><span>03</span>Experience</p>
+            <h2 class="section-title">Where I've <em>worked</em>.</h2>
+          </div>
+          <p class="section-meta"><span data-years>3.8</span> years in industry</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="role reveal">
+            <div class="role-meta">
+              <p class="role-dates"><time datetime="2025-03">Mar 2025</time> – Present</p>
+              <p class="role-place">Gurgaon, India</p>
+              <span class="role-now">Current role</span>
+            </div>
+            <article class="role-card">
+              <h3>Engineer, Data Science <span>(AI &amp; GenAI)</span></h3>
+              <p class="role-company">Adglobal360 Pvt. Ltd. <span class="role-client">Client: Reckitt Benckiser</span>
+              </p>
+              <ul class="role-points">
+                <li>Engineered end-to-end <strong>data pipelines for 7+ e-commerce platforms</strong> across GCC and
+                  South Asia, covering API-based data extraction, web scraping, data cleaning, transformation,
+                  validation and downstream analytics.</li>
+                <li>Designed scalable <strong>ETL pipelines</strong> using AWS S3, Databricks, Python, SQL and Parquet,
+                  transforming large-scale scraped datasets into analytics-ready data for downstream applications and
+                  reporting.</li>
+                <li>Built production-grade <strong>RAG pipelines</strong> for enterprise use cases, processing
+                  unstructured and scanned documents through OCR, text cleaning, document chunking, embeddings, vector
+                  search and LLM-based response generation.</li>
+                <li>Developed <strong>AI-powered chatbots</strong> using OpenAI/ChatGPT and Ollama, integrating LLMs
+                  with enterprise data and RAG pipelines to give business users context-aware responses.</li>
+                <li>Implemented <strong>Azure Data Factory pipelines and CI/CD workflows</strong> to automate data and
+                  application workflows, supporting reliable deployment and production operations.</li>
+                <li>Led a <strong>4-member team</strong> in reverse-engineering API endpoints across 7+ e-commerce
+                  platforms, including Carrefour, Noon, Panda.sa, Danube, Bin Dawood, Highfy and Daraz, enabling
+                  automated data ingestion for analytics and AI use cases.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>AWS S3</li>
+                <li>Databricks</li>
+                <li>Parquet</li>
+                <li>Azure Data Factory</li>
+                <li>OpenAI</li>
+                <li>Ollama</li>
+                <li>RAG</li>
+                <li>OCR</li>
+                <li>CI/CD</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="role reveal">
+            <div class="role-meta">
+              <p class="role-dates"><time datetime="2022-12">Dec 2022</time> – <time datetime="2025-03">Mar 2025</time>
+              </p>
+              <p class="role-place">Bangalore, India</p>
+            </div>
+            <article class="role-card">
+              <h3>Software Developer</h3>
+              <p class="role-company">EMSEC Pvt. Ltd.</p>
+              <ul class="role-points">
+                <li>Engineered automated <strong>web scraping and data ingestion pipelines across 50+
+                    websites</strong>, handling both traditional websites and SPAs and processing extracted data for
+                  downstream NLP analysis.</li>
+                <li>Built <strong>NLP data processing pipelines</strong> using Hugging Face models for text
+                  preprocessing, entity extraction and sentiment analysis on large datasets stored in MongoDB, with
+                  processed results indexed in Elasticsearch.</li>
+                <li>Developed and maintained scalable <strong>REST APIs</strong> using FastAPI and Flask for data
+                  ingestion, processing and integration with internal AI and analytics services.</li>
+                <li>Containerized backend and AI services using <strong>Docker and Docker Compose</strong>, supporting
+                  automated deployment across staging and production environments on AWS EC2.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>Hugging Face</li>
+                <li>MongoDB</li>
+                <li>Elasticsearch</li>
+                <li>FastAPI</li>
+                <li>Flask</li>
+                <li>Docker</li>
+                <li>AWS EC2</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ======= Education ======= -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker"><span>04</span>Education</p>
+          <h2 class="section-title">Academic <em>background</em>.</h2>
+        </header>
+
+        <div class="edu-grid">
+          <article class="edu-card reveal">
+            <div class="edu-top">
+              <span class="card-icon" aria-hidden="true"><i class="bx bx-brain"></i></span>
+              <span class="edu-dates">Nov 2024 – Jun 2026</span>
+            </div>
+            <h3>Minor in Artificial Intelligence</h3>
+            <p class="edu-school">Indian Institute of Technology, Ropar</p>
+            <p class="edu-foot"><span>Ropar, Punjab</span><span class="score">Grade: B</span></p>
+          </article>
+
+          <article class="edu-card reveal">
+            <div class="edu-top">
+              <span class="card-icon" aria-hidden="true"><i class="bx bx-chip"></i></span>
+              <span class="edu-dates">Jul 2018 – Jun 2022</span>
+            </div>
+            <h3>B.Tech in Electronics Engineering</h3>
+            <p class="edu-school">Dr. A.P.J. Abdul Kalam Technical University</p>
+            <p class="edu-foot"><span>Kanpur, Uttar Pradesh</span><span class="score">CGPA: 8.60 / 10</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Achievements ======= -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker"><span>05</span>Achievements</p>
+          <h2 class="section-title">Beyond the <em>day job</em>.</h2>
+        </header>
+
+        <div class="ach-grid">
+          <article class="ach-card ach-card--feature reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-file"></i></span>
+            <p class="ach-kicker">IEEE · ICEFEET 2022</p>
+            <h3>Published research paper in IEEE</h3>
+            <p>Performance analysis of a cooperative MIMO system: <em>“Investigation of Pairwise Error Probability of
+                α-μ Fading Channel in Spatially Modulated MIMO System.”</em></p>
+            <a class="text-link" href="https://www.researchgate.net/publication/362937945" target="_blank"
+              rel="noopener">Read on ResearchGate <i class="bx bx-link-external" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="ach-card reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-group"></i></span>
+            <p class="ach-kicker">GeeksforGeeks</p>
+            <h3>Mentored 100+ engineering students</h3>
+            <p>Career guidance for engineering students on the GeeksforGeeks (GfG) platform.</p>
+          </article>
+
+          <article class="ach-card reveal">
+            <span class="card-icon" aria-hidden="true"><i class="bx bx-trophy"></i></span>
+            <p class="ach-kicker">College SAC</p>
+            <h3>Club Leadership Award</h3>
+            <p>Led a team of 10+ members in the college SAC management club.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Certificates ======= -->
+    <section class="section section--alt" id="certificates">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker"><span>06</span>Certificates</p>
+          <h2 class="section-title">Always <em>learning</em>.</h2>
+          <p class="section-desc">Courses, research and events along the way. Select any certificate to view it full
+            size.</p>
+        </header>
+
+        <div class="filters reveal" role="group" aria-label="Filter certificates">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">All <span
+              class="count"></span></button>
+          <button class="filter" type="button" data-filter="courses" aria-pressed="false">Courses <span
+              class="count"></span></button>
+          <button class="filter" type="button" data-filter="research" aria-pressed="false">Research &amp; internship
+            <span class="count"></span></button>
+          <button class="filter" type="button" data-filter="events" aria-pressed="false">Events &amp; webinars <span
+              class="count"></span></button>
         </div>
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-par">Participation</li>
-              <li data-filter=".filter-ler">Learning</li>
-              <li data-filter=".filter-cur">Curricular</li>
+        <!-- To add a certificate: copy one <li>, then set data-category (courses / research / events),
+             the full-size image in href and the thumbnail in src. -->
+        <ul class="cert-grid">
+          <li class="cert reveal" data-category="research">
+            <a class="cert-card" href="assets/img/certificates/ieee-icefeet-2022.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/ieee-icefeet-2022.webp" width="640"
+                  height="445" loading="lazy" alt="IEEE ICEFEET 2022 paper presentation certificate"></span>
+              <span class="cert-body">
+                <span class="cert-title">Paper presentation, ICEFEET 2022</span>
+                <span class="cert-meta">IEEE · NIT Patna · 2022</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="research">
+            <a class="cert-card" href="assets/img/certificates/pantech-ai-internship.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/pantech-ai-internship.webp" width="640"
+                  height="452" loading="lazy" alt="Pantech Prolabs AI internship certificate"></span>
+              <span class="cert-body">
+                <span class="cert-title">Internship on Artificial Intelligence</span>
+                <span class="cert-meta">Pantech Prolabs · 2021</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/ibm-machine-learning-python.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/ibm-machine-learning-python.webp"
+                  width="640" height="493" loading="lazy"
+                  alt="Machine Learning with Python certificate from IBM Cognitive Class"></span>
+              <span class="cert-body">
+                <span class="cert-title">Machine Learning with Python</span>
+                <span class="cert-meta">IBM · Cognitive Class · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/coursera-python-for-everybody.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/coursera-python-for-everybody.webp"
+                  width="640" height="493" loading="lazy"
+                  alt="Programming for Everybody (Python) certificate from the University of Michigan on Coursera"></span>
+              <span class="cert-body">
+                <span class="cert-title">Programming for Everybody (Python)</span>
+                <span class="cert-meta">University of Michigan · Coursera · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/udemy-python-data-science.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/udemy-python-data-science.webp"
+                  width="640" height="475" loading="lazy"
+                  alt="Python for Data Science and Machine Learning certificate from Udemy"></span>
+              <span class="cert-body">
+                <span class="cert-title">Python for Data Science &amp; Machine Learning</span>
+                <span class="cert-meta">Udemy · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/hackerrank-python.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/hackerrank-python.webp" width="640"
+                  height="480" loading="lazy" alt="HackerRank Python (Basic) skill certificate"></span>
+              <span class="cert-body">
+                <span class="cert-title">Python (Basic) skill certificate</span>
+                <span class="cert-meta">HackerRank · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/google-digital-marketing.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/google-digital-marketing.webp"
+                  width="640" height="451" loading="lazy"
+                  alt="Fundamentals of Digital Marketing certificate from Google Digital Unlocked"></span>
+              <span class="cert-body">
+                <span class="cert-title">The Fundamentals of Digital Marketing</span>
+                <span class="cert-meta">Google Digital Unlocked · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/microsoft-javascript.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/microsoft-javascript.webp" width="640"
+                  height="452" loading="lazy"
+                  alt="JavaScript Fundamentals certificate from Microsoft Virtual Academy"></span>
+              <span class="cert-body">
+                <span class="cert-title">JavaScript Fundamentals</span>
+                <span class="cert-meta">Microsoft Virtual Academy · 2019</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/guvi-pygame.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/guvi-pygame.webp" width="640"
+                  height="425" loading="lazy" alt="Game Development with PyGame certificate from GUVI"></span>
+              <span class="cert-body">
+                <span class="cert-title">Game Development with PyGame</span>
+                <span class="cert-meta">GUVI · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/sololearn-html.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/sololearn-html.webp" width="640"
+                  height="454" loading="lazy" alt="HTML Fundamentals certificate from SoloLearn"></span>
+              <span class="cert-body">
+                <span class="cert-title">HTML Fundamentals</span>
+                <span class="cert-meta">SoloLearn · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/tcs-ion-communication.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/tcs-ion-communication.webp" width="640"
+                  height="455" loading="lazy" alt="Communication Skills certificate from TCS iON"></span>
+              <span class="cert-body">
+                <span class="cert-title">Communication Skills</span>
+                <span class="cert-meta">TCS iON · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="courses">
+            <a class="cert-card" href="assets/img/certificates/iide-digital-marketing.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/iide-digital-marketing.webp"
+                  width="640" height="493" loading="lazy"
+                  alt="Digital Marketing Fundamentals masterclass certificate from IIDE"></span>
+              <span class="cert-body">
+                <span class="cert-title">Digital Marketing Fundamentals</span>
+                <span class="cert-meta">IIDE masterclass · 2022</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="events">
+            <a class="cert-card" href="assets/img/certificates/python-competition.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/python-competition.webp" width="640"
+                  height="348" loading="lazy"
+                  alt="National-level Python 3 programming competition certificate from University Academy"></span>
+              <span class="cert-body">
+                <span class="cert-title">National Python 3 Programming Competition</span>
+                <span class="cert-meta">University Academy · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="events">
+            <a class="cert-card" href="assets/img/certificates/pantech-ai-webinar.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/pantech-ai-webinar.webp" width="640"
+                  height="427" loading="lazy"
+                  alt="AI Master Class webinar series certificate from APSSDC and Pantech Prolabs"></span>
+              <span class="cert-body">
+                <span class="cert-title">AI Master Class, 20-day webinar series</span>
+                <span class="cert-meta">APSSDC × Pantech Prolabs · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="events">
+            <a class="cert-card" href="assets/img/certificates/pantech-matlab-webinar.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/pantech-matlab-webinar.webp"
+                  width="640" height="427" loading="lazy"
+                  alt="MATLAB Master Class webinar series certificate from IETE Mumbai and Pantech Prolabs"></span>
+              <span class="cert-body">
+                <span class="cert-title">MATLAB Master Class, 10-day webinar series</span>
+                <span class="cert-meta">IETE Mumbai × Pantech Prolabs · 2020</span>
+              </span>
+            </a>
+          </li>
+          <li class="cert reveal" data-category="events">
+            <a class="cert-card" href="assets/img/certificates/aith-shankhnaad-2020.webp">
+              <span class="cert-thumb"><img src="assets/img/certificates/thumbs/aith-shankhnaad-2020.webp" width="640"
+                  height="455" loading="lazy" alt="Certificate of appreciation from Shankhnaad 2020 at AITH Kanpur"></span>
+              <span class="cert-body">
+                <span class="cert-title">Certificate of Appreciation, Shankhnaad</span>
+                <span class="cert-meta">AITH Kanpur · 2020</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======= Contact ======= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-intro">
+            <p class="section-kicker"><span>07</span>Contact</p>
+            <h2 class="section-title">Let's build something <em>together</em>.</h2>
+            <p class="contact-text">Looking for someone who combines data engineering, backend development and
+              Generative AI? I'd love to hear from you.</p>
+
+            <div class="email-row">
+              <a class="email-big" href="mailto:rk399504@gmail.com">rk399504@gmail.com</a>
+              <button class="icon-btn copy-btn" type="button" data-copy="rk399504@gmail.com"
+                aria-label="Copy email address"><i class="bx bx-copy" aria-hidden="true"></i></button>
+            </div>
+
+            <ul class="contact-list">
+              <li><i class="bx bx-phone" aria-hidden="true"></i><a href="tel:+918765626301">+91 87656 26301</a></li>
+              <li><i class="bx bx-map" aria-hidden="true"></i>Gurgaon, India</li>
+              <li><i class="bx bxl-linkedin" aria-hidden="true"></i><a
+                  href="https://www.linkedin.com/in/rohan-kumar-9b2a76186/" target="_blank"
+                  rel="noopener">Connect on LinkedIn</a></li>
+              <li><i class="bx bxl-github" aria-hidden="true"></i><a href="https://github.com/RohanKumar122"
+                  target="_blank" rel="noopener">github.com/RohanKumar122</a></li>
             </ul>
           </div>
+
+          <!-- GitHub Pages can't run server code, so this form opens the visitor's email app with the message filled in. -->
+          <form class="contact-form" id="contact-form" action="mailto:rk399504@gmail.com" method="get">
+            <div class="field-row">
+              <label class="field"><span>Your name</span>
+                <input name="name" type="text" autocomplete="name" required>
+              </label>
+              <label class="field"><span>Your email</span>
+                <input name="email" type="email" autocomplete="email" required>
+              </label>
+            </div>
+            <label class="field"><span>Subject</span>
+              <input name="subject" type="text" required>
+            </label>
+            <label class="field"><span>Message</span>
+              <textarea name="body" rows="6" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit"><i class="bx bx-send" aria-hidden="true"></i> Send
+                message</button>
+              <p class="form-note">Opens your email app with the message filled in.</p>
+            </div>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
         </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cur">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/IEEE.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/IEEE.png" data-gall="portfolioGallery" class="venobox" title="par 1"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-par">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/hackerank.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/hackerank.JPG" data-gall="portfolioGallery" class="venobox"
-                  title="par 1"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ler">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/pantech3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/pantech3.jpg" data-gall="portfolioGallery" class="venobox"
-                  title="ler 3"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ler">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/google.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/google.JPG" data-gall="portfolioGallery" class="venobox" title="ler 3"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ler">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/microsoft.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/microsoft.JPG" data-gall="portfolioGallery" class="venobox"
-                  title="ler 2"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ler">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/game.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/game.JPG" data-gall="portfolioGallery" class="venobox" title="ler 2"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ler">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/python2.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/python2.JPG" data-gall="portfolioGallery" class="venobox" title="ler 3"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ler">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/python4.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/python4.JPG" data-gall="portfolioGallery" class="venobox" title="ler 1"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-par">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/python3.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/python3.JPG" data-gall="portfolioGallery" class="venobox" title="par 3"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ler">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/digi.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/digi.JPG" data-gall="portfolioGallery" class="venobox" title="ler 1"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-par">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/html.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/html.JPG" data-gall="portfolioGallery" class="venobox" title="par 3"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-par">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/pantech1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/pantech1.jpg" data-gall="portfolioGallery" class="venobox"
-                  title="par 3"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-par">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/pantech2.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/pantech2.jpg" data-gall="portfolioGallery" class="venobox"
-                  title="par 3"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cur">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/tcs1.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/tcs1.JPG" data-gall="portfolioGallery" class="venobox" title="cur 2"><i
-                    class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cur">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/management.JPG" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/management.JPG" data-gall="portfolioGallery" class="venobox"
-                  title="cur 2"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p></p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>A.I.T.H., Kanpur, 208024</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>rk399504@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>(+91) 8765626301</p>
-              </div>
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7141.060771556365!2d80.27221441446729!3d26.503061374248666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c382405555555%3A0xc56ecc1df489e865!2sDr.%20Ambedkar%20Institute%20of%20Technology%20for%20Handicapped!5e0!3m2!1sen!2sin!4v1615894479412!5m2!1sen!2sin"
-                width="100%" height="290px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                    data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
-                  data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required"
-                  data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
       </div>
     </section>
 
   </main>
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        Copyright © 2025 All Rights Reserved. Developed and Maintained by <strong><span>Rohan Kumar</span></strong>
-      </div>
-
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year>2026</span> Rohan Kumar</p>
+      <ul class="footer-social" aria-label="Social profiles">
+        <li><a href="https://github.com/RohanKumar122" target="_blank" rel="noopener" aria-label="GitHub"><i
+              class="bx bxl-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/rohan-kumar-9b2a76186/" target="_blank" rel="noopener"
+            aria-label="LinkedIn"><i class="bx bxl-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/RohanKu62190048" target="_blank" rel="noopener" aria-label="X (Twitter)"><i
+              class="bx bxl-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/rohan_r.kumar/" target="_blank" rel="noopener" aria-label="Instagram"><i
+              class="bx bxl-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+      <a class="to-top" href="#top">Back to top <i class="bx bx-up-arrow-alt" aria-hidden="true"></i></a>
     </div>
-  </footer><!-- End  Footer -->
+  </footer>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <!-- Certificate viewer -->
+  <dialog class="lightbox" id="lightbox" aria-label="Certificate viewer">
+    <button class="icon-btn lightbox-close" type="button" aria-label="Close"><i class="bx bx-x"
+        aria-hidden="true"></i></button>
+    <button class="icon-btn lightbox-nav prev" type="button" aria-label="Previous certificate"><i
+        class="bx bx-chevron-left" aria-hidden="true"></i></button>
+    <button class="icon-btn lightbox-nav next" type="button" aria-label="Next certificate"><i
+        class="bx bx-chevron-right" aria-hidden="true"></i></button>
+    <figure>
+      <img src="data:," alt="">
+      <figcaption><strong></strong><span></span></figcaption>
+    </figure>
+  </dialog>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-
+  <script src="assets/js/portfolio.js" defer></script>
 </body>
 
 </html>
